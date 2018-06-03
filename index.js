@@ -18,6 +18,10 @@ function deleteFromDriverByKey(driver, key){
   return newObj;
 }
 
+let newdriver = {name: "sam"};
+let k = deleteFromDriverByKey(newdriver, "name");
+console.log(k);
+
 function destructivelyDeleteFromDriverByKey(driver, key){
   delete driver.key;
   return driver;
