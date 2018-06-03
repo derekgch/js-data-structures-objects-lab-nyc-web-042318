@@ -2,7 +2,7 @@
 driver = {};
 
 
-function updateDriverWithKeyAndValue(driver, key, value){
+function updateDriverWithKeyAndValue(driver, key, value) {
   return Object.assign({}, driver, { [key]: value });
 };
 const kew = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
