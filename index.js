@@ -8,7 +8,6 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   const newObj = { ...driver };
 
     newObj[key] = value;
-    console.log(newObj);
     return newObj;
 };
 const kew = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
