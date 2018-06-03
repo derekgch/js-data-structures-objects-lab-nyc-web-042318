@@ -5,8 +5,8 @@ driver = {
 
 function updateDriverWithKeyAndValue(driver, key, value) {
   let obj = {};
-  console.log(driver);
-  return Object.assign(driver, obj[key]=value);
+  let newobj= Object.assign(driver, obj[key]=value);
+  return newobj;
 }
 
 function deleteFromDriverByKey() {
