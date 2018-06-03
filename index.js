@@ -25,4 +25,4 @@ function destructivelyDeleteFromDriverByKey() {
 
 };
 
-let kew = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
+const kew = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
