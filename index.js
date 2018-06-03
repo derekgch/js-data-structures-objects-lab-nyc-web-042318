@@ -8,7 +8,7 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 
 
 function deleteFromDriverByKey(driver, key) {
-  const newObj = Object.assign({}, driver, {}};
+  const newObj = driver;
   delete newObj.key;
   return newObj;
 };
