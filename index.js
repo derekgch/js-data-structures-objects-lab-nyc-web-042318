@@ -1,13 +1,13 @@
 // Write your solution in this file!
-driver
+driver = {};
 function deleteFromDriverByKey() {
-  
+
 }
 
 function destructivelyUpdateDriverWithKeyAndValue() {
-  
+
 }
 
 function destructivelyDeleteFromDriverByKey() {
-  
+
 }
