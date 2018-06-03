@@ -3,6 +3,8 @@ driver = {
   name: 'Sam'
 };
 
+
+
 function updateDriverWithKeyAndValue(driver, key, value) {
   const newObj = { ...driver };
 
@@ -11,7 +13,8 @@ function updateDriverWithKeyAndValue(driver, key, value) {
     return newObj;
 };
 const kew = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
-
+const aww = driver;
+console.log(aww);
 
 function deleteFromDriverByKey() {
 
