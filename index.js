@@ -14,7 +14,6 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 };
 const kew = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
 const aww = driver;
-console.log(aww);
 
 function deleteFromDriverByKey() {
 
