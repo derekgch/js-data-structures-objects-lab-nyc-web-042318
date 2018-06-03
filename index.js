@@ -8,6 +8,8 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   obj[key]=value;
   return obj;
 };
+const kew = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
+
 
 function deleteFromDriverByKey() {
 
@@ -24,5 +26,3 @@ function destructivelyUpdateDriverWithKeyAndValue() {
 function destructivelyDeleteFromDriverByKey() {
 
 };
-
-const kew = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
